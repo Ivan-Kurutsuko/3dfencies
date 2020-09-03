@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="mailgo/dist/mailgo.css">
   <link rel="stylesheet" href="css/main.css">
   <!-- /.fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;0,800;1,500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,500&display=swap" rel="stylesheet">
 
 </head>
 <body>
@@ -42,9 +42,9 @@
               <a href="tel:89826663129" class="header__buttons-button header__buttons-button2"> <img src="img/phone.png" alt="">+ 7 (982) 666 31-29</a>
             </div>
             <!-- /.header__buttons-block -->
-            <div class="header__buttons-order">
+            <a class="header__buttons-order">
               Заказать звонок
-            </div>
+            </a>
           </div>
       </div>
       <!-- /.header__top -->
@@ -94,10 +94,139 @@
       <!-- /.header__content -->
     </div>
     <!-- /.container -->
+
+    <div class="header__form">
+      <div class="header__form-overlay"></div>
+      <form action="#" class="header__form-form">
+        <div class="header__form__content">
+          <input type="text" placeholder="Введите имя">
+          <input type="text" placeholder="Введите номер">
+          <button>Заказать</button>
+          <a class="header__form__close">&times;</a>
+        </div>
+      </form>
+    </div>
+    <!-- Header__form -->
   </header>
+
+  <section class="depart">
+    <div class="container">
+      <div class="depart__title title">
+        Собственный <br> конструкторский<br> отдел
+      </div>
+      <!-- /.title -->
+      <div class="depart__content">
+        <div class="depart__columns">
+          <div class="depart__column">
+            <div class="depart__column-text">Полный цикл производства на обоудовании европейских производителей</div>
+            <div class="depart__column-text">Производственные мощности до 120 км. ограждающих конструкций в месяц</div>
+            <div class="depart__column-text">Всегда есть возможность изготовить ограждение строго по техническому заданию</div>
+          </div>
+          <div class="depart__column">
+            <div class="depart__column-text">Разработать индивидуальный проект с учетом пожеланий заказчика</div>
+            <div class="depart__column-text">Четкая визуализация до старта изготовления ограждений</div>
+            <div class="depart__column-text">Большой опыт расчетной работы, поэтому возможность узнать стоимость работы гораздо быстрее</div>
+          </div>
+        </div>
+        <!-- /.depart__columns -->
+        <div class="depart__buttons">
+          <a href="#" class="depart__button">Записаться</a>
+          <a href="#" class="depart__link">Записаться <br>на экскурсию <br>на завод</a>
+          <label for="depart__button" class="depart__button-label">*Подобности у менеджера</label>
+        </div>
+        <!-- /.depart__buttons -->
+      </div>
+      <!-- /.depart__content -->
+      <img src="img/constr-image.png" alt="" class="depart__image">
+    </div>
+  </section>
+  <!-- /.depart -->
+
+  <section class="reasons">
+    <div class="container">
+      <div class="reasons__title title">
+        Веские причины <br>сделать заказ у нас
+      </div>
+      <div class="reasons__items">
+        <div class="reasons__item">
+          <div class="reasons__item-wrap">
+            <div class="reasons__item-title">Материалы</div>
+            <!-- /.reasons__item-title -->
+            <div class="reasons__item-text">Только качественная российская сталь. Оцинкованный стальной пруток по ГОСТ 3282-74 диаметром от 4 до 8 мм. с толщиной цинкового слоя 120-240 г/м2 (10-18 мкм).</div>
+            <!-- /.reasons__item-text -->
+          </div>
+        </div>
+        <!-- /.reasons__item -->
+        <div class="reasons__item">
+          <div class="reasons__item-wrap">
+            <div class="reasons__item-title">Технология</div>
+            <!-- /.reasons__item-title -->
+            <div class="reasons__item-text">Собственное производство полного цикла мощностью 90 - 120 км. ограждающих конструкций/мес.</div>
+            <!-- /.reasons__item-text -->
+          </div>
+        </div>
+        <!-- /.reasons__item -->
+        <div class="reasons__item">
+          <div class="reasons__item-wrap">
+            <div class="reasons__item-title">Гарантии</div>
+            <!-- /.reasons__item-title -->
+            <div class="reasons__item-text">Высокое качество выпускаемой продукции подтверждено сертификатами соответствия и протоколами испытаний</div>
+            <!-- /.reasons__item-text -->
+          </div>
+        </div>
+        <!-- /.reasons__item -->
+      </div>
+      <!-- /.reasons__items -->
+      <div class="steps">
+        <div class="steps__title title">
+          Этапы выполнения заказа
+        </div>
+        <!-- /.steps__title -->
+        <div class="steps__wrapper">
+          <div class="steps__item">
+            <img src="img/note.png" alt="" class="steps__item-image">
+            <div class="steps__item-text">Оформляете заявку <br>на расчет стоимости</div>
+          </div>
+          <button class="steps__separator"><span class="steps__separator-count">2</span></button>
+          <div class="steps__item">
+            <img src="img/smartphone.png" alt="" class="steps__item-image">
+            <div class="steps__item-text">Мы звязываемся с<br> вами, уточняем детали</div>
+          </div>
+          <button class="steps__separator"><span class="steps__separator-count">3</span></button>
+          <div class="steps__item">
+            <img src="img/note2.png" alt="" class="steps__item-image">
+            <div class="steps__item-text">Присылаем предложения <br>со сроками работы</div>
+          </div>
+          <button class="steps__separator"><span class="steps__separator-count">4</span></button>
+          <div class="steps__item">
+            <img src="img/mini-cassa.png" alt="" class="steps__item-image">
+            <div class="steps__item-text">Оплата и монтаж</div>
+          </div>
+        </div>
+        <!-- /.steps__wrapper -->
+      </div>
+      <!-- /.steps -->
+    </div>
+  </section>
+  <!-- /.reasons -->
   <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
   <!-- <script src="https://cdn.jsdelivr.net/npm/mailgo@0.8.5/dist/mailgo.min.js"></script> -->
   <script src="mailgo/dist/mailgo.min.js"></script>
+
+  <script>
+    $('.header__buttons-order').click(function() {
+      $('.header__form-overlay').show();
+      $('.header__form-form').show();
+    });
+    $('.header__form-overlay').click(function() {
+      $('.header__form-overlay').hide();
+      $('.header__form-form').hide();
+    });    
+    $('.header__form__close').click(function() {
+      $('.header__form-overlay').hide();
+      $('.header__form-form').hide();
+    });
+  </script>
 </body>
 </html>
